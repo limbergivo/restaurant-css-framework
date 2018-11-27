@@ -1,33 +1,42 @@
-    body{
-        background-color:#373c42;
-        font-family: 'Oleo Script', cursive;
-        font-size: 19px;
-    }
+body{
+    background-color:#373c42;
+    font-family: 'Oleo Script', cursive;
+    font-size: 19px;
+}
 
-    .navpicture{
-        background-image: url(../images/navfoto.jpg);
-        background-size: cover; 
-        background-position: center;
-        filter: brightness(90%);
-    }
+.navpicture{
+    background-image: url(../images/navfoto.jpg);
+    background-size: cover; 
+    background-position: center;
+    filter: brightness(90%);
+}
 
-    .media{
-        display: flex;
-        justify-content: end;
-    }
+.media{
+    display: flex;
+    justify-content: end;
+}
 
 /* Icons*/
-    .fa-arrow-circle-right{
-        font-size: 3vw;
-    }
-    
-    footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #373c42;
-        color:#fff;
-        text-align: center;
-        list-style: none
-    }
+.fa-arrow-circle-right{
+    font-size: 3vw;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #373c42;
+    color:#fff;
+    text-align: center;
+    list-style: none
+}
+
+.promotion-title{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+}
+
+.darker-background{
+    background-color: rgba(0, 0, 0, .9);
+}
