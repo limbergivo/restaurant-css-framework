@@ -5,7 +5,7 @@
     }
 
     .navpicture{
-        background-image: url(images/navfoto.jpg);
+        background-image: url(../images/navfoto.jpg);
         background-size: cover; 
         background-position: center;
         filter: brightness(90%);
