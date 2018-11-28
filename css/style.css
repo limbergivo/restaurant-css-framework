@@ -11,14 +11,10 @@ body{
     filter: brightness(90%);
 }
 
-.media{
-    display: flex;
-    justify-content: end;
-}
-
 /* Icons*/
 .fa-arrow-circle-right{
     font-size: 3vw;
+    margin-bottom:10%;
 }
 
 footer{
@@ -29,7 +25,7 @@ footer{
     background-color: #373c42;
     color:#fff;
     text-align: center;
-    list-style: none
+    list-style: none;
 }
 
 .promotion-title{
@@ -39,4 +35,12 @@ footer{
 
 .darker-background{
     background-color: rgba(0, 0, 0, .9);
+}
+
+
+@media only screen and (max-width: 300px) {
+    map-responsive{
+        align-content: center;
+       
+    }
 }
